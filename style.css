@@ -5,6 +5,7 @@ body{
     font-family: 'Orbitron', sans-serif;
     font-family: 'Revalia', cursive;
     font-weight: bolder;
+    background: linear-gradient(#219ebc,#dad7cd);
 }
 #hero{
     background-image: url("https://c1.wallpaperflare.com/preview/444/603/659/ho%E1%BA%B1ng-than-sesame-my-hometown.jpg");
@@ -18,7 +19,7 @@ body{
 }
 .text{
     color: #ffffff;
-    margin-top: 300px;
+    margin-top: 280px;
     border: 2px solid white;
     border-radius: 10px;
     padding: 30px;
@@ -35,3 +36,42 @@ body{
     height: 100px;
     font-size: small;
 }
+.imge{
+    border-radius: 50%;
+    width: 150px;
+    border: 3px solid #EFB0C9;
+  }
+  .header{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10px;
+  }
+.prop{
+    width: 150px;
+    border: 2px solid  #ef476f;
+    padding: 10px;
+}
+.card1{
+   
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    width: 400px;
+    margin: 0 auto;
+    background: #003566;
+    color: #ffd166;
+    border: 4px solid #dad7cd;
+    box-shadow: #003566;
+    border-radius: 10px;
+
+}
+.dotted-border{
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+
